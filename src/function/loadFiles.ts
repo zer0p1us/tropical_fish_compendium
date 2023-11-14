@@ -33,7 +33,7 @@ const TELLRAW_DATA: string = JSON.stringify([
                 color: '#CCCCCC',
             },
         },
-        clickEvent: { action: 'open_url', value: 'https://github.com/AntoninHuaut/TropicalFish' },
+        clickEvent: { action: 'open_url', value: 'https://github.com/zer0p1us/tropical_fish_compendium' },
     },
 ]);
 const content = `tellraw @a ${TELLRAW_DATA}`;

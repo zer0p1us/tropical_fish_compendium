@@ -1,4 +1,4 @@
-# tropical_fish_compendium
+# Tropical Fish Compendium
 
 <p align="center">
   <img src="https://i.imgur.com/JDq39DL.png">

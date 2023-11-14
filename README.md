@@ -9,10 +9,6 @@
   <br/><b>Flopper Advancement tab</b>
 </p>
 
-## Download
-Datapack and resourcepack can be downloaded on curseforge
-* [All Tropical Fish Datapack](https://www.curseforge.com/minecraft/customization/all-tropical-fish-datapack)
-* [All Tropical Fish Collection](https://www.curseforge.com/minecraft/texture-packs/all-tropical-fish-ressourcepack)
 
 ## Generation
 

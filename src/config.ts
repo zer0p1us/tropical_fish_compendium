@@ -3,8 +3,8 @@ export const config: IConfig = {
     typeRewardCommands: ['xp add @s 2700 points'],
     datapackFormat: 10,
     resourcepackFormat: 13,
-    techName: 'tropicalfish',
-    i18nName: 'Tropical Fish',
+    techName: 'tropical_fish_compendium',
+    i18nName: 'tropical fish compendium',
     jsonMinified: true,
 };
 

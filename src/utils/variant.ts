@@ -30,6 +30,7 @@ export const typesMapping: Record<string, [number, number]> = {
 
 // black : Not found naturally
 export const colors: string[] = [
+    'black',
     'blue',
     'brown',
     'cyan',
@@ -47,6 +48,7 @@ export const colors: string[] = [
     'yellow',
 ];
 export const colorsMapping: Record<string, number> = {
+    black: 15,
     blue: 11,
     brown: 12,
     cyan: 9,
@@ -85,7 +87,7 @@ export function getVariantsWithTypeColor(typeStr: string, colorStr: string): num
     const pattern = type[1];
     const colorBody = colorsMapping[colorStr];
 
-    for (let colorPattern = 0; colorPattern <= 14; colorPattern++) {
+    for (let colorPattern = 0; colorPattern <= 15; colorPattern++) {
         // 15 = black : Not found naturally
         variantList.push((colorPattern << 24) | (colorBody << 16) | (pattern << 8) | size);
     }

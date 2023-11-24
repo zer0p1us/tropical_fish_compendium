@@ -1,4 +1,6 @@
-# Tropical Fish Compendium
+<h1 align="center"> Tropical Fish Compendium </h1>
+
+<p align="center">Fork of <a href="https://github.com/AntoninHuaut/TropicalFish">TropicalFish</a></p>
 
 <p align="center">
   <img src="https://i.imgur.com/JDq39DL.png">
@@ -9,6 +11,11 @@
   <br/><b>Flopper Advancement tab</b>
 </p>
 
+## Additions
+
+- [x] Added support for black fish
+- [x] Fixed textures for Kob, Sunstreak & Dasher
+- [ ] New textures for all the fish to match new black textures
 
 ## Generation
 

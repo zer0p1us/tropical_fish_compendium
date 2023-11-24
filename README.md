@@ -1,4 +1,4 @@
-<h1 align="center"> Tropical Fish Compendium </h1>
+<h1 align="center">Tropical Fish Compendium 🐠</h1>
 
 <p align="center">Fork of <a href="https://github.com/AntoninHuaut/TropicalFish">TropicalFish</a></p>
 

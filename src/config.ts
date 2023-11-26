@@ -1,7 +1,8 @@
 export const config: IConfig = {
     globalRewardCommands: [''],
     typeRewardCommands: [''],
-    datapackFormat: 10,    resourcepackFormat: 13,
+    datapackFormat: 18,
+    resourcepackFormat: 18,
     techName: 'tropical_fish_compendium',
     i18nName: 'tropical fish compendium',
     jsonMinified: true,

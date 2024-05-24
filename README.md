@@ -29,5 +29,5 @@ deno upgrade
 Then run the application to generate the datapack and the resourcepack
 
 ```console
-deno task start
+deno task build
 ```

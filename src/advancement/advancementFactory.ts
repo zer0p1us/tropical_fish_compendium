@@ -51,7 +51,7 @@ export function getGlobaleFileContent() {
         .criteria({})
         .display({
             icon: {
-                item: 'minecraft:tropical_fish',
+                id: 'minecraft:tropical_fish',
             },
             title: {
                 translate: 'advancement.catch.fish.title',
@@ -74,8 +74,10 @@ export function getGlobalTypeFileContent(params: { modelData: number; parent: st
         .criteria({})
         .display({
             icon: {
-                item: 'minecraft:tropical_fish',
-                nbt: `{ CustomModelData: ${params.modelData} }`,
+                id: 'minecraft:tropical_fish',
+                components: {
+                    'minecraft:custom_model_data': params.modelData,
+                },
             },
             title: {
                 translate: 'advancement.catch.type.title',
@@ -109,8 +111,10 @@ export function getMainFileContent(params: { modelData: number; type: string }) 
         .criteria({})
         .display({
             icon: {
-                item: 'minecraft:tropical_fish',
-                nbt: `{ CustomModelData: ${params.modelData} }`,
+                id: 'minecraft:tropical_fish',
+                components: {
+                    'minecraft:custom_model_data': params.modelData,
+                },
             },
             title: {
                 translate: 'advancement.catch.type.title',
@@ -146,7 +150,9 @@ export function getBodyFileContent(params: { bodyColor: string; modelData: numbe
                     items: [
                         {
                             items: ['minecraft:tropical_fish_bucket'],
-                            nbt: `{BucketVariantTag: ${variantColor.color}}`,
+                            components: {
+                                "minecraft:bucket_entity_data" :`{Health:3f,BucketVariantTag: ${variantColor.color}}`,
+                            }
                         },
                     ],
                 },
@@ -161,8 +167,10 @@ export function getBodyFileContent(params: { bodyColor: string; modelData: numbe
         .criteria(criteria)
         .display({
             icon: {
-                item: 'minecraft:tropical_fish',
-                nbt: `{ CustomModelData: ${params.modelData} }`,
+                id: 'minecraft:tropical_fish',
+                components: {
+                    'minecraft:custom_model_data': params.modelData,
+                },
             },
             title: {
                 translate: 'advancement.catch.type_bodyColor.title',
@@ -201,8 +209,10 @@ export function getPatternFileContent(params: { bodyColor: string; modelData: nu
         .criteria({})
         .display({
             icon: {
-                item: 'minecraft:tropical_fish',
-                nbt: `{ CustomModelData: ${params.modelData} }`,
+                id: 'minecraft:tropical_fish',
+                components: {
+                    'minecraft:custom_model_data': params.modelData,
+                },
             },
             title: {
                 translate: 'advancement.catch.type_bodyColor_patternColor.title',
